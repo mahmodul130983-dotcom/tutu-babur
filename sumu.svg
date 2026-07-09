@@ -1,0 +1,897 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="700"
+height="700"
+viewBox="0 0 700 700">
+
+<!-- ==========================
+     SUMU
+========================== -->
+
+<g id="sumu">
+
+<!-- Shadow -->
+<ellipse
+cx="350"
+cy="610"
+rx="120"
+ry="22"
+fill="#000"
+opacity=".12"/>
+
+<!-- Blanket -->
+
+<path
+d="
+M220 380
+Q350 330 480 380
+L520 570
+Q350 640 180 570
+Z"
+fill="#f6b8d5"/>
+
+<!-- Blanket Fold -->
+
+<path
+d="
+M240 405
+Q350 370 460 405"
+fill="none"
+stroke="#e792bb"
+stroke-width="4"
+stroke-linecap="round"/>
+
+<path
+d="
+M220 455
+Q350 425 480 455"
+fill="none"
+stroke="#e792bb"
+stroke-width="4"
+stroke-linecap="round"/>
+
+<!-- Legs Hidden -->
+
+<ellipse
+cx="305"
+cy="575"
+rx="38"
+ry="20"
+fill="#ffe6ef"/>
+
+<ellipse
+cx="395"
+cy="575"
+rx="38"
+ry="20"
+fill="#ffe6ef"/>
+
+<!-- Neck -->
+
+<rect
+x="334"
+y="258"
+width="32"
+height="34"
+rx="12"
+fill="#ffd7c2"/>
+
+<!-- Head Placeholder -->
+
+<circle
+id="headBase"
+cx="350"
+cy="195"
+r="82"
+fill="#ffd7c2"/>
+<!-- ==========================================
+     PART 5.2
+     FACE + SHORT BOB HAIR + GLASSES BASE
+========================================== -->
+
+<!-- Hair Back -->
+<path
+d="
+M270 205
+Q275 110 350 100
+Q425 110 430 205
+Q425 260 400 285
+Q380 275 350 275
+Q320 275 300 285
+Q275 260 270 205
+Z"
+fill="#3d2b1f"/>
+
+<!-- Left Hair -->
+<path
+d="
+M270 185
+Q250 215 265 255
+Q280 278 302 286
+L305 170
+Z"
+fill="#3d2b1f"/>
+
+<!-- Right Hair -->
+<path
+d="
+M430 185
+Q450 215 435 255
+Q420 278 398 286
+L395 170
+Z"
+fill="#3d2b1f"/>
+
+<!-- Front Bang -->
+<path
+d="
+M285 145
+Q350 95 415 145
+Q398 165 375 170
+Q350 150 325 170
+Q302 165 285 145
+Z"
+fill="#3d2b1f"/>
+
+<!-- Left Ear -->
+<ellipse
+cx="274"
+cy="205"
+rx="12"
+ry="18"
+fill="#ffd7c2"/>
+
+<!-- Right Ear -->
+<ellipse
+cx="426"
+cy="205"
+rx="12"
+ry="18"
+fill="#ffd7c2"/>
+
+<!-- Glasses -->
+<g id="glasses"
+stroke="#4a4a4a"
+stroke-width="3"
+fill="none">
+
+<circle
+cx="322"
+cy="195"
+r="24"/>
+
+<circle
+cx="378"
+cy="195"
+r="24"/>
+
+<line
+x1="346"
+y1="195"
+x2="354"
+y2="195"/>
+
+<line
+x1="298"
+y1="188"
+x2="282"
+y2="180"/>
+
+<line
+x1="402"
+y1="188"
+x2="418"
+y2="180"/>
+
+</g>
+<!-- ==========================================
+     PART 5.6
+     ANIMATABLE EYES
+========================================== -->
+
+<g id="eyeLeft" transform-origin="322px 195px">
+
+    <ellipse
+        cx="322"
+        cy="195"
+        rx="6"
+        ry="6"
+        fill="#2d2d2d"/>
+
+    <circle
+        cx="320"
+        cy="193"
+        r="1.7"
+        fill="white"/>
+
+</g>
+
+<g id="eyeRight" transform-origin="378px 195px">
+
+    <ellipse
+        cx="378"
+        cy="195"
+        rx="6"
+        ry="6"
+        fill="#2d2d2d"/>
+
+    <circle
+        cx="376"
+        cy="193"
+        r="1.7"
+        fill="white"/>
+
+</g>
+
+<!-- Hair Animation Group -->
+<g id="hairSwing"></g>
+
+<!-- Lily Animation Group -->
+<g id="lilyFlower">
+  
+</g>
+  <!-- ==========================================
+     PART 5.3
+     CUTE FACE DETAILS
+========================================== -->
+
+<!-- Eyebrows -->
+<path
+d="M306 170 Q322 164 336 170"
+fill="none"
+stroke="#2f2118"
+stroke-width="3"
+stroke-linecap="round"/>
+
+<path
+d="M364 170 Q378 164 394 170"
+fill="none"
+stroke="#2f2118"
+stroke-width="3"
+stroke-linecap="round"/>
+
+<!-- Eyelashes -->
+<path
+d="M314 184 l-5 -4"
+stroke="#2f2118"
+stroke-width="2"
+stroke-linecap="round"/>
+
+<path
+d="M330 184 l5 -4"
+stroke="#2f2118"
+stroke-width="2"
+stroke-linecap="round"/>
+
+<path
+d="M370 184 l-5 -4"
+stroke="#2f2118"
+stroke-width="2"
+stroke-linecap="round"/>
+
+<path
+d="M386 184 l5 -4"
+stroke="#2f2118"
+stroke-width="2"
+stroke-linecap="round"/>
+
+<!-- Nose -->
+<path
+d="
+M350 205
+Q346 216 350 220
+Q354 216 350 205"
+fill="none"
+stroke="#e5a58e"
+stroke-width="2.2"
+stroke-linecap="round"
+stroke-linejoin="round"/>
+
+<!-- Cute Smile -->
+<path
+d="
+M330 238
+Q350 255 370 238"
+fill="none"
+stroke="#b94f68"
+stroke-width="4"
+stroke-linecap="round"/>
+
+<!-- Mouth Highlight -->
+<path
+d="
+M338 241
+Q350 249 362 241"
+fill="none"
+stroke="#ffb5c7"
+stroke-width="1.5"
+stroke-linecap="round"/>
+
+<!-- Blush -->
+<ellipse
+cx="292"
+cy="222"
+rx="16"
+ry="8"
+fill="#ffb3c7"
+opacity=".65"/>
+
+<ellipse
+cx="408"
+cy="222"
+rx="16"
+ry="8"
+fill="#ffb3c7"
+opacity=".65"/>
+
+<!-- Freckles -->
+<circle cx="300" cy="218" r="1.3" fill="#f39ab3"/>
+<circle cx="307" cy="221" r="1.3" fill="#f39ab3"/>
+
+<circle cx="393" cy="221" r="1.3" fill="#f39ab3"/>
+<circle cx="400" cy="218" r="1.3" fill="#f39ab3"/>
+
+<!-- Hair Shine -->
+<path
+d="
+M305 132
+Q350 108 392 132"
+fill="none"
+stroke="#6b4a35"
+stroke-width="4"
+stroke-linecap="round"
+opacity=".45"/>
+  <!-- ==========================================
+     PART 5.4
+     ARMS + HANDS + LILY HOLDING
+========================================== -->
+
+<!-- Left Arm -->
+<path
+d="
+M285 315
+Q265 340 275 380
+Q285 405 305 392
+Q300 360 310 330
+Z"
+fill="#ffd7c2"/>
+
+<!-- Right Arm -->
+<path
+d="
+M415 315
+Q435 340 425 380
+Q415 405 395 392
+Q400 360 390 330
+Z"
+fill="#ffd7c2"/>
+
+<!-- Left Hand -->
+<circle
+cx="300"
+cy="392"
+r="12"
+fill="#ffd7c2"/>
+
+<!-- Right Hand -->
+<circle
+cx="400"
+cy="392"
+r="12"
+fill="#ffd7c2"/>
+
+<!-- Lily Stem -->
+<line
+x1="350"
+y1="390"
+x2="350"
+y2="275"
+stroke="#43a047"
+stroke-width="5"
+stroke-linecap="round"/>
+
+<!-- Lily Leaf Left -->
+<path
+d="
+M350 340
+Q328 330 318 348
+Q334 355 350 347
+Z"
+fill="#4caf50"/>
+
+<!-- Lily Leaf Right -->
+<path
+d="
+M350 320
+Q372 310 382 328
+Q366 336 350 329
+Z"
+fill="#43a047"/>
+
+<!-- Lily Flower -->
+<g transform="translate(350 250)">
+
+<ellipse cx="0" cy="-24" rx="10" ry="28"
+fill="#ffffff"
+stroke="#f2bfd1"
+stroke-width="1.5"/>
+
+<ellipse cx="20" cy="-6" rx="10" ry="28"
+transform="rotate(60 20 -6)"
+fill="#ffffff"
+stroke="#f2bfd1"
+stroke-width="1.5"/>
+
+<ellipse cx="-20" cy="-6" rx="10" ry="28"
+transform="rotate(-60 -20 -6)"
+fill="#ffffff"
+stroke="#f2bfd1"
+stroke-width="1.5"/>
+
+<ellipse cx="16" cy="-28" rx="10" ry="24"
+transform="rotate(30 16 -28)"
+fill="#ffffff"
+stroke="#f2bfd1"
+stroke-width="1.5"/>
+
+<ellipse cx="-16" cy="-28" rx="10" ry="24"
+transform="rotate(-30 -16 -28)"
+fill="#ffffff"
+stroke="#f2bfd1"
+stroke-width="1.5"/>
+
+<circle
+cx="0"
+cy="-10"
+r="6"
+fill="#ffd54f"/>
+
+</g>
+
+<!-- Fingers Holding Stem -->
+<path
+d="
+M338 388
+Q345 384 350 390"
+fill="none"
+stroke="#e8b9a4"
+stroke-width="2"
+stroke-linecap="round"/>
+
+<path
+d="
+M362 388
+Q355 384 350 390"
+fill="none"
+stroke="#e8b9a4"
+stroke-width="2"
+stroke-linecap="round"/>
+  <!-- ==========================================
+     PART 5.5
+     BLANKET DETAILS + SWEATER + EXTRA CUTE
+========================================== -->
+
+<!-- Sweater Collar -->
+<path
+d="
+M320 286
+Q350 305 380 286
+Q372 320 350 326
+Q328 320 320 286
+Z"
+fill="#ffffff"/>
+
+<!-- Sweater -->
+<path
+d="
+M292 305
+Q350 292 408 305
+L392 370
+Q350 382 308 370
+Z"
+fill="#f8f8fc"/>
+
+<!-- Blanket Top Fold -->
+<path
+d="
+M220 372
+Q350 345 480 372"
+fill="none"
+stroke="#ec94bc"
+stroke-width="5"
+stroke-linecap="round"/>
+
+<!-- Blanket Fold 2 -->
+<path
+d="
+M235 420
+Q350 396 465 420"
+fill="none"
+stroke="#ec94bc"
+stroke-width="4"
+stroke-linecap="round"
+opacity=".8"/>
+
+<!-- Blanket Fold 3 -->
+<path
+d="
+M228 468
+Q350 445 472 468"
+fill="none"
+stroke="#ec94bc"
+stroke-width="4"
+stroke-linecap="round"
+opacity=".7"/>
+
+<!-- Blanket Fold 4 -->
+<path
+d="
+M245 520
+Q350 500 455 520"
+fill="none"
+stroke="#ec94bc"
+stroke-width="3"
+stroke-linecap="round"
+opacity=".6"/>
+
+<!-- Left Sleeve -->
+<ellipse
+cx="295"
+cy="336"
+rx="20"
+ry="34"
+fill="#ffffff"/>
+
+<!-- Right Sleeve -->
+<ellipse
+cx="405"
+cy="336"
+rx="20"
+ry="34"
+fill="#ffffff"/>
+
+<!-- Cute Heart On Sweater -->
+<path
+d="
+M350 334
+C350 324 338 320 334 330
+C330 320 318 324 318 334
+C318 346 334 355 334 355
+C334 355 350 346 350 334
+Z"
+fill="#ff7fb4"/>
+
+<!-- Hair Highlights -->
+<path
+d="
+M300 128
+Q350 110 400 128"
+fill="none"
+stroke="#6d5444"
+stroke-width="3"
+opacity=".45"
+stroke-linecap="round"/>
+
+<path
+d="
+M295 150
+Q350 136 405 150"
+fill="none"
+stroke="#6d5444"
+stroke-width="2.5"
+opacity=".35"
+stroke-linecap="round"/>
+
+<!-- Soft Face Glow -->
+<ellipse
+cx="350"
+cy="195"
+rx="74"
+ry="78"
+fill="#ffffff"
+opacity=".05"/>
+
+<!-- Sparkles -->
+<g fill="#fff7d6">
+
+<circle cx="250" cy="150" r="2"/>
+<circle cx="450" cy="175" r="2"/>
+<circle cx="470" cy="270" r="2"/>
+<circle cx="235" cy="300" r="2"/>
+  <!-- ==========================================
+     PART 5.7
+     PREMIUM FINISHING DETAILS
+========================================== -->
+
+<!-- Glass Reflection -->
+<path
+d="
+M292 182
+Q310 170 328 182"
+fill="none"
+stroke="#ffffff"
+stroke-width="2"
+opacity=".45"
+stroke-linecap="round"/>
+
+<path
+d="
+M372 182
+Q390 170 408 182"
+fill="none"
+stroke="#ffffff"
+stroke-width="2"
+opacity=".45"
+stroke-linecap="round"/>
+
+<!-- Nose Shadow -->
+<path
+d="
+M350 206
+Q347 214 350 220"
+fill="none"
+stroke="#d89c96"
+stroke-width="2"
+stroke-linecap="round"
+opacity=".6"/>
+
+<!-- Chin Shadow -->
+<ellipse
+cx="350"
+cy="245"
+rx="22"
+ry="8"
+fill="#d89c96"
+opacity=".15"/>
+
+<!-- Hair Shine -->
+<path
+d="
+M302 120
+Q350 102 398 120"
+fill="none"
+stroke="#8a6b56"
+stroke-width="3"
+opacity=".25"
+stroke-linecap="round"/>
+
+<path
+d="
+M295 145
+Q350 130 405 145"
+fill="none"
+stroke="#8a6b56"
+stroke-width="2"
+opacity=".18"
+stroke-linecap="round"/>
+
+<!-- Blanket Texture -->
+<path
+d="
+M235 395
+Q350 378 465 395"
+fill="none"
+stroke="#ffffff"
+stroke-width="1.5"
+opacity=".28"/>
+
+<path
+d="
+M245 445
+Q350 428 455 445"
+fill="none"
+stroke="#ffffff"
+stroke-width="1.5"
+opacity=".22"/>
+
+<path
+d="
+M250 495
+Q350 480 450 495"
+fill="none"
+stroke="#ffffff"
+stroke-width="1.3"
+opacity=".18"/>
+
+<!-- Small Floating Hearts -->
+<g id="floatingHearts">
+
+<path
+d="
+M250 105
+C250 98 242 95 239 101
+C236 95 228 98 228 105
+C228 114 239 121 239 121
+C239 121 250 114 250 105
+Z"
+fill="#ff9bc5"
+opacity=".75"/>
+
+<path
+d="
+M455 135
+C455 129 448 126 445 131
+C442 126 435 129 435 135
+C435 143 445 149 445 149
+C445 149 455 143 455 135
+Z"
+fill="#ffc2dc"
+opacity=".65"/>
+
+</g>
+
+<!-- Character Breathing Group -->
+<g id="bodyBreath"></g>
+
+<!-- Future Animation Anchor -->
+<g id="characterEffects">
+</g>
+  <!-- ==========================================
+     PART 5.8
+     SVG ANIMATIONS
+========================================== -->
+
+<!-- ===== Blink Animation ===== -->
+<style>
+
+@keyframes blink {
+
+    0%, 96%, 100%{
+        transform:scaleY(1);
+    }
+
+    97%,99%{
+        transform:scaleY(.08);
+    }
+
+}
+
+#eyeLeft,
+#eyeRight{
+
+    animation:blink 5s infinite;
+    transform-box:fill-box;
+    transform-origin:center;
+
+}
+
+/* ========================= */
+
+@keyframes breathe{
+
+    0%,100%{
+        transform:translateY(0px) scale(1);
+    }
+
+    50%{
+        transform:translateY(-2px) scale(1.01);
+    }
+
+}
+
+#bodyBreath{
+
+    animation:breathe 4s ease-in-out infinite;
+
+}
+
+/* ========================= */
+
+@keyframes swing{
+
+    0%,100%{
+        transform:rotate(0deg);
+    }
+
+    25%{
+        transform:rotate(1deg);
+    }
+
+    75%{
+        transform:rotate(-1deg);
+    }
+
+}
+
+#hairSwing{
+
+    animation:swing 6s ease-in-out infinite;
+    transform-box:fill-box;
+    transform-origin:350px 120px;
+
+}
+
+/* ========================= */
+
+@keyframes flowerMove{
+
+    0%,100%{
+        transform:rotate(0deg);
+    }
+
+    50%{
+        transform:rotate(3deg);
+    }
+
+}
+
+#lilyFlower{
+
+    animation:flowerMove 3.5s ease-in-out infinite;
+    transform-box:fill-box;
+    transform-origin:350px 330px;
+
+}
+
+/* ========================= */
+
+@keyframes floatHeart{
+
+    0%{
+
+        transform:translateY(0);
+        opacity:.7;
+
+    }
+
+    50%{
+
+        transform:translateY(-10px);
+        opacity:1;
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+        opacity:.7;
+
+    }
+
+}
+
+#floatingHearts path:nth-child(1){
+
+    animation:floatHeart 3s ease-in-out infinite;
+
+}
+
+#floatingHearts path:nth-child(2){
+
+    animation:floatHeart 3s ease-in-out infinite .8s;
+
+}
+
+/* ========================= */
+
+@keyframes twinkle{
+
+    0%,100%{
+
+        opacity:.25;
+
+    }
+
+    50%{
+
+        opacity:1;
+
+    }
+
+}
+
+.sparkle{
+
+    animation:twinkle 2s infinite;
+
+}
+
+</style>
+
+<!-- Optional Sparkles -->
+<circle class="sparkle" cx="250" cy="150" r="2" fill="#fff8d8"/>
+<circle class="sparkle" cx="452" cy="170" r="2" fill="#fff8d8"/>
+<circle class="sparkle" cx="230" cy="290" r="2" fill="#fff8d8"/>
+<circle class="sparkle" cx="470" cy="280" r="2" fill="#fff8d8"/>
+
+</svg>
