@@ -645,3 +645,231 @@ font-size:16px;
 }
 
 }
+/* ==========================================
+   PART 6.6
+   CHARACTER AREA
+========================================== */
+
+.characterArea{
+
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+
+    gap:40px;
+
+    margin:45px 0;
+
+    flex-wrap:wrap;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+/* Sumu */
+
+.sumuSvg{
+
+    width:260px;
+    max-width:42vw;
+
+    animation:floatSumu 4s ease-in-out infinite;
+
+}
+
+/* Shanto */
+
+.shantoSvg{
+
+    width:250px;
+    max-width:40vw;
+
+    animation:floatShanto 4.5s ease-in-out infinite;
+
+}
+
+/* Floating */
+
+@keyframes floatSumu{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-6px);
+
+    }
+
+}
+
+@keyframes floatShanto{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-5px);
+
+    }
+
+}
+
+/* ===================== */
+
+.smallTitle{
+
+    color:#b55ba2;
+
+    font-size:18px;
+
+    margin-bottom:10px;
+
+}
+
+#title{
+
+    font-size:48px;
+
+    color:#8b4d88;
+
+    margin-bottom:8px;
+
+}
+
+.name{
+
+    color:#c66ab4;
+
+    font-size:28px;
+
+    margin-bottom:25px;
+
+}
+
+/* ===================== */
+
+body{
+
+    margin:0;
+
+    overflow-x:hidden;
+
+    background:
+    linear-gradient(
+    135deg,
+    #ffe7f4,
+    #f3ebff,
+    #ffffff);
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+/* ===================== */
+
+.bgGlow{
+
+    position:fixed;
+
+    width:500px;
+    height:500px;
+
+    background:#ffc8e7;
+
+    filter:blur(170px);
+
+    opacity:.35;
+
+    top:-150px;
+    right:-100px;
+
+    z-index:-2;
+
+}
+
+/* ===================== */
+
+.stars{
+
+    position:fixed;
+
+    inset:0;
+
+    pointer-events:none;
+
+    background-image:
+
+    radial-gradient(white 1px,transparent 1px);
+
+    background-size:120px 120px;
+
+    opacity:.18;
+
+    z-index:-1;
+
+}
+
+/* ===================== */
+
+.hero{
+
+    max-width:1000px;
+
+    margin:auto;
+
+    padding:50px 20px;
+
+}
+
+/* ===================== */
+
+@media(max-width:768px){
+
+.characterArea{
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.sumuSvg,
+.shantoSvg{
+
+    width:220px;
+
+    max-width:85%;
+
+}
+
+#title{
+
+    font-size:34px;
+
+}
+
+.name{
+
+    font-size:22px;
+
+}
+
+.smallTitle{
+
+    font-size:16px;
+
+}
+
+}
