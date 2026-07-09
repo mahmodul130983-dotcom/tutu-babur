@@ -974,3 +974,210 @@ transform:translateY(80px);
 
 transition:.8s ease;
 }
+/* ==========================================
+   PART 7.2
+   LETTER CARD
+========================================== */
+
+#letterCard{
+
+    width:min(92%,600px);
+
+    margin:35px auto;
+
+    padding:28px;
+
+    border-radius:24px;
+
+    background:rgba(255,255,255,.55);
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,.08);
+
+    text-align:center;
+
+    transition:.4s;
+
+}
+
+#letterCard:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.letterIcon{
+
+    font-size:42px;
+
+    margin-bottom:12px;
+
+}
+
+#letterCard h3{
+
+    color:#b45b9c;
+
+    margin-bottom:18px;
+
+}
+
+#messageBox{
+
+    font-size:19px;
+
+    color:#6d5877;
+
+    line-height:1.8;
+
+    min-height:90px;
+
+    transition:.4s;
+
+}
+/* ==========================================
+   PART 7.3
+========================================== */
+
+/* Music Button */
+
+#musicBtn{
+
+position:fixed;
+
+right:20px;
+
+bottom:20px;
+
+padding:14px 20px;
+
+border:none;
+
+border-radius:40px;
+
+cursor:pointer;
+
+background:#ffb7dc;
+
+color:#fff;
+
+font-weight:600;
+
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+transition:.3s;
+
+z-index:9999;
+
+}
+
+#musicBtn:hover{
+
+transform:scale(1.05);
+
+}
+
+/* Butterflies */
+
+.butterfly{
+
+position:fixed;
+
+font-size:28px;
+
+pointer-events:none;
+
+opacity:.65;
+
+animation:fly 18s linear infinite;
+
+z-index:1;
+
+}
+
+.b1{
+
+left:5%;
+
+animation-delay:0s;
+
+}
+
+.b2{
+
+left:45%;
+
+animation-delay:6s;
+
+}
+
+.b3{
+
+left:80%;
+
+animation-delay:12s;
+
+}
+
+@keyframes fly{
+
+0%{
+
+transform:
+
+translateY(100vh)
+
+translateX(0)
+
+rotate(0deg);
+
+}
+
+50%{
+
+transform:
+
+translateY(40vh)
+
+translateX(30px)
+
+rotate(15deg);
+
+}
+
+100%{
+
+transform:
+
+translateY(-120px)
+
+translateX(-30px)
+
+rotate(-15deg);
+
+}
+
+}
+
+/* Footer */
+
+footer{
+
+padding:40px 20px;
+
+text-align:center;
+
+color:#a36b9b;
+
+font-size:15px;
+
+}
+body{
+
+opacity:0;
+
+transition:opacity .8s ease;
+
+}
