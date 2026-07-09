@@ -1,0 +1,314 @@
+/* ==========================
+   Google Font
+========================== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    width:100%;
+    min-height:100vh;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(
+        135deg,
+        #ffe4ec,
+        #ffd6e8,
+        #f6dcff,
+        #f5e8ff
+    );
+    position:relative;
+}
+
+/* ==========================
+   Background Glow
+========================== */
+
+.bgGlow{
+    position:absolute;
+    width:700px;
+    height:700px;
+    border-radius:50%;
+    background:radial-gradient(
+        circle,
+        rgba(255,182,193,.35),
+        transparent 70%
+    );
+    filter:blur(80px);
+    animation:glow 6s ease-in-out infinite;
+}
+
+@keyframes glow{
+
+0%,100%{
+transform:scale(1);
+opacity:.6;
+}
+
+50%{
+transform:scale(1.2);
+opacity:1;
+}
+
+}
+
+/* ==========================
+   Hero Card
+========================== */
+
+.hero{
+
+position:relative;
+
+width:90%;
+max-width:650px;
+
+padding:45px;
+
+border-radius:30px;
+
+background:rgba(255,255,255,.22);
+
+backdrop-filter:blur(18px);
+
+border:1px solid rgba(255,255,255,.4);
+
+box-shadow:
+0 15px 45px rgba(0,0,0,.12);
+
+text-align:center;
+
+z-index:5;
+
+}
+
+/* ==========================
+   Titles
+========================== */
+
+.smallTitle{
+
+font-size:20px;
+
+color:#ff69a6;
+
+margin-bottom:10px;
+
+animation:fadeDown 1s ease;
+
+}
+
+#title{
+
+font-size:42px;
+
+color:#7b3fa5;
+
+font-weight:700;
+
+margin-bottom:8px;
+
+}
+
+.name{
+
+font-size:34px;
+
+color:#ff4d88;
+
+margin-bottom:25px;
+
+}
+
+/* ==========================
+   Typing Text
+========================== */
+
+#typing{
+
+font-size:19px;
+
+line-height:1.8;
+
+color:#5d4b67;
+
+min-height:90px;
+
+margin-bottom:30px;
+
+}
+
+/* ==========================
+   Button
+========================== */
+
+#startBtn{
+
+padding:16px 42px;
+
+border:none;
+
+border-radius:50px;
+
+font-size:18px;
+
+cursor:pointer;
+
+font-weight:600;
+
+color:white;
+
+background:linear-gradient(
+90deg,
+#ff5fa2,
+#d46bff
+);
+
+transition:.35s;
+
+box-shadow:
+0 8px 25px
+rgba(255,90,170,.35);
+
+}
+
+#startBtn:hover{
+
+transform:translateY(-4px) scale(1.05);
+
+box-shadow:
+0 15px 35px
+rgba(255,90,170,.45);
+
+}
+
+/* ==========================
+   Floating Lily Container
+========================== */
+
+#lily-container{
+
+position:absolute;
+
+left:0;
+
+top:0;
+
+width:100%;
+
+height:100%;
+
+pointer-events:none;
+
+overflow:hidden;
+
+}
+
+/* ==========================
+   Stars
+========================== */
+
+.stars{
+
+position:absolute;
+
+width:100%;
+
+height:100%;
+
+background-image:
+
+radial-gradient(
+white 1px,
+transparent 1px);
+
+background-size:90px 90px;
+
+opacity:.25;
+
+animation:moveStars 30s linear infinite;
+
+}
+
+@keyframes moveStars{
+
+from{
+transform:translateY(0);
+}
+
+to{
+transform:translateY(-120px);
+}
+
+}
+
+/* ==========================
+   Fade Animation
+========================== */
+
+@keyframes fadeDown{
+
+from{
+
+opacity:0;
+
+transform:
+translateY(-35px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:
+translateY(0);
+
+}
+
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media(max-width:768px){
+
+.hero{
+
+padding:30px 20px;
+
+}
+
+#title{
+
+font-size:32px;
+
+}
+
+.name{
+
+font-size:26px;
+
+}
+
+#typing{
+
+font-size:17px;
+
+}
+
+#startBtn{
+
+font-size:16px;
+
+padding:14px 30px;
+
+}
+
+}
