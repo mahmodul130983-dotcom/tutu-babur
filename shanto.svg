@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 700 700">
+
+<!-- ===========================
+     DEFS
+=========================== -->
+
+<defs>
+
+<linearGradient
+id="hoodieGradient"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#7f8cff"/>
+<stop offset="100%" stop-color="#5865d8"/>
+
+</linearGradient>
+
+<filter id="shadow">
+
+<feDropShadow
+dx="0"
+dy="6"
+stdDeviation="8"
+flood-opacity=".18"/>
+
+</filter>
+
+</defs>
+
+<!-- ===========================
+     CHARACTER
+=========================== -->
+
+<g id="shantoCharacter"
+filter="url(#shadow)">
+
+<!-- Neck -->
+
+<rect
+x="333"
+y="255"
+width="34"
+height="38"
+rx="10"
+fill="#f4c6a6"/>
+
+<!-- Face -->
+
+<ellipse
+cx="350"
+cy="190"
+rx="78"
+ry="88"
+fill="#f8d2b7"/>
+
+<!-- Left Ear -->
+
+<ellipse
+cx="273"
+cy="192"
+rx="11"
+ry="18"
+fill="#f4c6a6"/>
+
+<!-- Right Ear -->
+
+<ellipse
+cx="427"
+cy="192"
+rx="11"
+ry="18"
+fill="#f4c6a6"/>
+
+<!-- Hoodie -->
+
+<path
+d="
+M250 305
+Q350 265 450 305
+L485 560
+L215 560
+Z"
+fill="url(#hoodieGradient)"/>
+
+<!-- Hoodie Neck -->
+
+<path
+d="
+M305 285
+Q350 320 395 285"
+fill="none"
+stroke="#ffffff"
+stroke-width="5"
+stroke-linecap="round"/>
+  <!-- ==========================================
+     PART 6.4 + 6.5
+     FACE + HANDS + HOT CHOCOLATE
+========================================== -->
+
+<!-- Hair -->
+<path
+d="
+M274 170
+Q285 95 350 90
+Q415 95 426 170
+L426 150
+Q420 105 350 95
+Q280 105 274 150
+Z"
+fill="#2f2f2f"/>
+
+<!-- Hair Bang -->
+<path
+d="
+M286 150
+Q330 130 350 148
+Q370 125 414 150"
+fill="none"
+stroke="#242424"
+stroke-width="6"
+stroke-linecap="round"/>
+
+<!-- Eyes -->
+<ellipse cx="322" cy="193" rx="5" ry="5" fill="#2b2b2b"/>
+<ellipse cx="378" cy="193" rx="5" ry="5" fill="#2b2b2b"/>
+
+<!-- Eye Shine -->
+<circle cx="320" cy="191" r="1.5" fill="#ffffff"/>
+<circle cx="376" cy="191" r="1.5" fill="#ffffff"/>
+
+<!-- Eyebrows -->
+<path d="M310 175 Q322 170 334 175"
+fill="none"
+stroke="#2b2b2b"
+stroke-width="3"
+stroke-linecap="round"/>
+
+<path d="M366 175 Q378 170 390 175"
+fill="none"
+stroke="#2b2b2b"
+stroke-width="3"
+stroke-linecap="round"/>
+
+<!-- Nose -->
+<path
+d="
+M350 202
+Q347 212 350 218"
+fill="none"
+stroke="#d69d82"
+stroke-width="2"
+stroke-linecap="round"/>
+
+<!-- Smile -->
+<path
+d="
+M333 228
+Q350 242 367 228"
+fill="none"
+stroke="#b56464"
+stroke-width="3"
+stroke-linecap="round"/>
+
+<!-- Blush -->
+<ellipse cx="300" cy="220" rx="11" ry="6"
+fill="#ffb0c5" opacity=".45"/>
+
+<ellipse cx="400" cy="220" rx="11" ry="6"
+fill="#ffb0c5" opacity=".45"/>
+
+<!-- Left Hand -->
+<circle
+cx="285"
+cy="360"
+r="16"
+fill="#f4c6a6"/>
+
+<!-- Right Hand -->
+<circle
+cx="415"
+cy="360"
+r="16"
+fill="#f4c6a6"/>
+
+<!-- Mug -->
+<rect
+x="388"
+y="330"
+width="48"
+height="42"
+rx="8"
+fill="#ffffff"/>
+
+<!-- Mug Handle -->
+<path
+d="
+M436 340
+Q450 342 450 351
+Q450 360 436 362"
+fill="none"
+stroke="#ffffff"
+stroke-width="5"
+stroke-linecap="round"/>
+
+<!-- Hot Chocolate -->
+<rect
+x="391"
+y="333"
+width="42"
+height="10"
+rx="5"
+fill="#7b4c2c"/>
+
+<!-- Steam -->
+<path
+d="
+M402 328
+Q398 317 404 307"
+fill="none"
+stroke="#dddddd"
+stroke-width="2"
+stroke-linecap="round"/>
+
+<path
+d="
+M418 328
+Q414 316 420 304"
+fill="none"
+stroke="#dddddd"
+stroke-width="2"
+stroke-linecap="round"/>
+
+<!-- Hoodie Pocket -->
+<path
+d="
+M305 450
+Q350 470 395 450"
+fill="none"
+stroke="#ffffff"
+stroke-width="3"
+stroke-linecap="round"/>
+
+<!-- Hoodie Strings -->
+<line
+x1="338"
+y1="290"
+x2="333"
+y2="335"
+stroke="#ffffff"
+stroke-width="3"/>
+
+<line
+x1="362"
+y1="290"
+x2="367"
+y2="335"
+stroke="#ffffff"
+stroke-width="3"/>
+
+</g>
+
+</svg>
