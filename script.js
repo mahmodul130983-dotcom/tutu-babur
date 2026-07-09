@@ -154,3 +154,25 @@ title.style.textShadow="none";
 },900);
 
 },2500);
+/* ==========================================
+   PART 7.1
+   ENDING FADE
+========================================== */
+
+const ending=document.querySelector(".ending");
+
+window.addEventListener("scroll",()=>{
+
+if(!ending) return;
+
+const top=ending.getBoundingClientRect().top;
+
+if(top<window.innerHeight-120){
+
+ending.style.opacity="1";
+
+ending.style.transform="translateY(0)";
+
+}
+
+});
