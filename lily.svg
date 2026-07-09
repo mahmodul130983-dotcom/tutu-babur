@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="220"
+     height="220"
+     viewBox="0 0 220 220">
+
+    <!-- Stem -->
+    <line x1="110" y1="200"
+          x2="110" y2="110"
+          stroke="#3ca55c"
+          stroke-width="5"
+          stroke-linecap="round"/>
+
+    <!-- Leaves -->
+    <path d="M110 160
+             C80 150 75 120 105 130
+             C115 138 118 150 110 160"
+          fill="#4CAF50"/>
+
+    <path d="M110 145
+             C140 135 145 105 115 118
+             C105 126 102 138 110 145"
+          fill="#43A047"/>
+
+    <!-- Petals -->
+    <g fill="#ffffff" stroke="#f3b6c9" stroke-width="1.5">
+
+        <ellipse cx="110" cy="75"
+                 rx="18" ry="50"/>
+
+        <ellipse cx="145" cy="95"
+                 rx="18" ry="50"
+                 transform="rotate(60 145 95)"/>
+
+        <ellipse cx="75" cy="95"
+                 rx="18" ry="50"
+                 transform="rotate(-60 75 95)"/>
+
+        <ellipse cx="140" cy="60"
+                 rx="18" ry="45"
+                 transform="rotate(30 140 60)"/>
+
+        <ellipse cx="80" cy="60"
+                 rx="18" ry="45"
+                 transform="rotate(-30 80 60)"/>
+
+        <ellipse cx="110" cy="95"
+                 rx="18" ry="45"
+                 transform="rotate(180 110 95)"/>
+
+    </g>
+
+    <!-- Flower Center -->
+    <circle cx="110"
+            cy="92"
+            r="9"
+            fill="#FFD54F"/>
+
+    <!-- Stamens -->
+    <g stroke="#d28a00"
+       stroke-width="2"
+       stroke-linecap="round">
+
+        <line x1="110" y1="92" x2="110" y2="65"/>
+        <circle cx="110" cy="62" r="3" fill="#d28a00"/>
+
+        <line x1="110" y1="92" x2="95" y2="72"/>
+        <circle cx="94" cy="70" r="3" fill="#d28a00"/>
+
+        <line x1="110" y1="92" x2="125" y2="72"/>
+        <circle cx="126" cy="70" r="3" fill="#d28a00"/>
+
+    </g>
+
+</svg>
