@@ -873,3 +873,104 @@ body{
 }
 
 }
+/* ==========================================
+   PART 7.1
+   ENDING SECTION
+========================================== */
+
+.ending{
+
+padding:90px 20px;
+
+text-align:center;
+
+}
+
+.ending h2{
+
+color:#b058a0;
+
+font-size:34px;
+
+margin-bottom:18px;
+
+}
+
+.ending p{
+
+font-size:20px;
+
+line-height:1.8;
+
+color:#6b5a74;
+
+margin-bottom:25px;
+
+}
+
+.ending h3{
+
+color:#ff6ba5;
+
+font-size:26px;
+
+}
+
+.heartCircle{
+
+width:110px;
+height:110px;
+
+margin:auto;
+
+border-radius:50%;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-size:50px;
+
+background:white;
+
+box-shadow:
+
+0 0 40px rgba(255,130,180,.35);
+
+animation:heartbeat 1.5s infinite;
+
+margin-bottom:30px;
+
+}
+
+@keyframes heartbeat{
+
+0%,100%{
+
+transform:scale(1);
+
+}
+
+25%{
+
+transform:scale(1.1);
+
+}
+
+50%{
+
+transform:scale(.95);
+
+}
+
+75%{
+
+transform:scale(1.15);
+
+}
+opacity:0;
+
+transform:translateY(80px);
+
+transition:.8s ease;
+}
